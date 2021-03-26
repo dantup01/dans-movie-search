@@ -1,7 +1,7 @@
 const settings = {
   "async": true,
   "crossDomain": true,
-  "url": "https://movie-database-imdb-alternative.p.rapidapi.com/?s=Avengers%20Endgame&page=1&r=json&type=movie",
+  "url": `https://movie-database-imdb-alternative.p.rapidapi.com/?s=${@movie.title}&page=1&r=json&type=movie`,
   "method": "GET",
   "headers": {
     "x-rapidapi-key": "ENV['MOVIE_API_KEY']",

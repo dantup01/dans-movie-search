@@ -4,7 +4,7 @@ const settings = {
   "url": "https://movie-database-imdb-alternative.p.rapidapi.com/?s=Avengers%20Endgame&page=1&r=json&type=movie",
   "method": "GET",
   "headers": {
-    "x-rapidapi-key": "619337f078mshed2d243c4e9b731p11075cjsn0b86c23e66da",
+    "x-rapidapi-key": "ENV['MOVIE_API_KEY']",
     "x-rapidapi-host": "movie-database-imdb-alternative.p.rapidapi.com"
   }
 };
